@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Attack - Pure HTML & CSS Designs</title>
+    <title>Art Attack 101 - Pure HTML & CSS Designs</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -11,7 +11,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo"><a href="#home">Art Attack</a></div>
+            <div class="logo"><a href="#home">Art Attack 101</a></div>
             <ul class="nav-links">
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#collections">Collections</a></li>
@@ -25,7 +25,7 @@
     <!-- Welcome Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Welcome to Art Attack</h1>
+            <h1 class="hero-title">Welcome to<br />Art Attack 101</h1>
             <p class="hero-subtitle">Explore beautiful designs crafted with pure HTML and CSS</p>
             <button class="cta-button" onclick="scrollToGallery()">Explore Gallery</button>
         </div>
@@ -63,17 +63,31 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <div class="footer-links">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
                 <a href="#home">Home</a>
                 <a href="#gallery">Gallery</a>
+                <a href="#collections">Collections</a>
+                <a href="#about">About</a>
                 <a href="mailto:contact@artattack.com">Contact</a>
             </div>
-            <div class="footer-social">
-                <a href="https://github.com/username" target="_blank">GitHub</a>
-                <a href="https://www.buymeacoffee.com/username" target="_blank">Buy Me a Coffee</a>
+            <div class="footer-section">
+                <h3>Meet the Developer</h3>
+                <a href="https://github.com/Pranav-Rustagi" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/pranav-rustagi/" target="_blank">LinkedIn</a>
+                <a href="http://dev.to/pranav-rustagi" target="_blank">Dev.to</a>
+                <!-- <a href="" target="_blank">Buy Me a Coffee</a> -->
+            </div>
+            <div class="footer-section">
+                <h3>Other</h3>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#sitemap">Sitemap</a>
             </div>
         </div>
-        <p>&copy; 2024 Art Attack. All designs created with pure HTML & CSS.</p>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Art Attack. All designs created with pure HTML & CSS.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>

@@ -67,7 +67,7 @@ body {
 }
 
 .nav-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
@@ -76,7 +76,7 @@ body {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--accent-cyan);
     letter-spacing: 2px;
@@ -143,15 +143,16 @@ body {
 }
 
 .theme-toggle:hover {
-    transform: scale(1.2);
+    transform: rotate(-35deg);
 }
 
 /* Hero Section */
 .hero {
     background-color: var(--primary-navy);
     color: var(--text-light);
-    padding: 120px 2rem 150px 2rem;
+    padding: 12rem 2rem;
     text-align: center;
+    position: relative;
 }
 
 .hero-content {
@@ -259,17 +260,14 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     white-space: nowrap;
     flex-shrink: 0;
     margin: 0.25rem;
 }
 
 .filter-btn:hover {
-    border-color: var(--accent-cyan);
-    color: var(--accent-cyan);
-    transform: scale(1.05);
-    box-shadow: 0 0 12px rgba(99, 102, 241, 0.25);
+    transform: scale(1.025);
 }
 
 .filter-btn.active {
@@ -427,7 +425,6 @@ body {
 .footer {
     background-color: var(--bg-card);
     color: var(--text-muted);
-    text-align: center;
     padding: 3.5rem 2rem;
     margin-top: 5rem;
     border-top: 1px solid var(--border-color);
@@ -435,45 +432,45 @@ body {
 
 .footer-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    margin-bottom: 2rem;
-}
-
-.footer-links {
-    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
-.footer-links a {
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    min-width: 150px;
+}
+
+.footer-section h3 {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.footer-section a {
     color: var(--text-light);
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer-section a:hover {
     opacity: 0.8;
 }
 
-.footer-social {
-    display: flex;
-    gap: 2rem;
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
 }
 
-.footer-social a {
-    color: var(--accent-cyan);
-    text-decoration: none;
-    font-weight: 600;
-    transition: opacity 0.3s ease;
-}
-
-.footer-social a:hover {
-    opacity: 0.8;
-}
-
-.footer p {
+.footer-bottom p {
     font-size: 0.95rem;
     letter-spacing: 0.3px;
     font-weight: 500;
