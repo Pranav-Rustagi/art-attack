@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Attack - Pure HTML & CSS Designs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><a href="#home">Art Attack</a></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Art Attack</h1>
+            <p class="hero-subtitle">Explore beautiful designs crafted with pure HTML and CSS</p>
+            <button class="cta-button" onclick="scrollToGallery()">Explore Gallery</button>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Our Designs</h2>
+            
+            <div class="filters">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-box" 
+                    placeholder="Search by project name..."
+                >
+                <div class="tag-filters">
+                    <div id="tagContainer"></div>
+                </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div id="projectsGrid" class="projects-grid">
+                <!-- Projects will be rendered here by JavaScript -->
+            </div>
+
+            <!-- No Results Message -->
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No designs found matching your criteria.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="mailto:contact@artattack.com">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/username" target="_blank">GitHub</a>
+                <a href="https://www.buymeacoffee.com/username" target="_blank">Buy Me a Coffee</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Art Attack. All designs created with pure HTML & CSS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

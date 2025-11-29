@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Gradient Animation",
+        "description": "Beautiful gradient animation created with pure CSS. Beautiful gradient animation created with pure CSS. Beautiful gradient animation created with pure CSS",
+        "image": null,
+        "tags": ["animation", "gradient", "css"],
+        "link": "#"
+    },
+    {
+        "id": 2,
+        "title": "Glass Morphism Card",
+        "description": "Modern glass morphism effect using CSS backdrop filters",
+        "image": null,
+        "tags": ["design", "glass", "modern"],
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "title": "Floating Navigation",
+        "description": "Interactive floating navigation menu with smooth transitions",
+        "image": null,
+        "tags": ["navigation", "interactive", "ui"],
+        "link": "#"
+    },
+    {
+        "id": 4,
+        "title": "Particle Effect",
+        "description": "Mesmerizing particle effect animation with CSS and JavaScript",
+        "image": null,
+        "tags": ["animation", "particles", "effect"],
+        "link": "#"
+    },
+    {
+        "id": 5,
+        "title": "3D Cube Transform",
+        "description": "Interactive 3D cube using CSS 3D transforms",
+        "image": null,
+        "tags": ["3d", "transform", "interactive"],
+        "link": "#"
+    },
+    {
+        "id": 6,
+        "title": "Neon Text Effect",
+        "description": "Eye-catching neon text effect with glowing animation",
+        "image": null,
+        "tags": ["text", "effect", "neon"],
+        "link": "#"
+    }
+]
