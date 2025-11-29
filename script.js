@@ -33,7 +33,7 @@ function setupThemeToggle() {
 function updateThemeToggleIcon(theme) {
     const themeToggle = document.getElementById('themeToggle');
     if (!themeToggle) return;
-    themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+    // Icons are now handled by CSS, no need to change text content
 }
 
 // Load projects data from JSON file
