@@ -5,7 +5,8 @@
         "description": "Beautiful gradient animation created with pure CSS. Beautiful gradient animation created with pure CSS. Beautiful gradient animation created with pure CSS",
         "image": null,
         "tags": ["animation", "gradient", "css"],
-        "link": "#"
+        "link": "#",
+        "featured": true
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "description": "Modern glass morphism effect using CSS backdrop filters",
         "image": null,
         "tags": ["design", "glass", "modern"],
-        "link": "#"
+        "link": "#",
+        "featured": true
     },
     {
         "id": 3,

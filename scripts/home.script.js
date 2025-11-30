@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 function initTheme() {
     const savedTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
-    updateThemeToggleIcon(savedTheme);
 }
 
 // Setup theme toggle button
@@ -25,21 +24,13 @@ function setupThemeToggle() {
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
-        updateThemeToggleIcon(newTheme);
     });
-}
-
-// Update theme toggle icon
-function updateThemeToggleIcon(theme) {
-    const themeToggle = document.getElementById('themeToggle');
-    if (!themeToggle) return;
-    // Icons are now handled by CSS, no need to change text content
 }
 
 // Load projects data from JSON file
 async function loadProjectsData() {
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch('./data/projects.json');
         projectsData = await response.json();
         filteredProjects = [...projectsData];
         renderProjects(projectsData);
